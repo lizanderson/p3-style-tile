@@ -1,3 +1,31 @@
+/*Primary Header */
+h1 {
+	font-family: 'Chewy', cursive;
+	color: #AEAC77;
+}
+
+/*body text */
+p {
+	font-family: 'Rouge Script', cursive;
+	line-height: .75em;
+	color: #eee;
+}
+
+/*links*/
+a:link,
+a:visited {
+	border-bottom: double black 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover,
+a:active {
+	background: red;
+}
+
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -21,6 +49,25 @@ section {
 	width: 50px;
 }
 
+/*color palette*/
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflower blue;
+}
+
+/*textures*/
+.pattern-1 {
+	background: url(background-color: #cc8800;
+background-image: url(http://www.transparenttextures.com/patterns/basketball.png);
+);
+}
+
+.pattern-2 {
+	background: url("../img/swirl_pattern.png");
+}
 
 /* Show Grid */
 .showgrid {
