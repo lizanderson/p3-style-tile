@@ -1,14 +1,27 @@
 /*Primary Header */
 h1 {
-	font-family: 'Chewy', cursive;
-	color: #AEAC77;
+	font-family: 'Rosarivo', serif;
+	color: #229999;
+	text-align: center;
 }
 
+h2 {
+	font-family: 'Droid Serif', serif;
+	color: #447489;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'PT Serif', serif;
+	color: #559390;
+	text-align: center;
+}
 /*body text */
 p {
-	font-family: 'Rouge Script', cursive;
-	line-height: .75em;
-	color: #eee;
+	font-family: 'Lora', serif;
+	line-height: 1em;
+	color: black;
+	text-align: center;
 }
 
 /*links*/
@@ -21,19 +34,21 @@ a:visited {
 
 a:hover,
 a:active {
-	background: red;
+	background: blue;
 }
 
 
 
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 20px 0;
+	text-align: center;
 }
 
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
+	text-align: center;
 }
 
 .color-1,
@@ -47,26 +62,39 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	text-align: center;
 }
 
 /*color palette*/
 .color-1 {
-	background: teal;
+	background: #445698;
+	text-align: center;
 }
 
 .color-2 {
-	background: cornflower blue;
+	background: #558193;
+	text-align: center;
+}
+
+.color-3 {
+	background: #504080;
+	text-align: center;
 }
 
 /*textures*/
 .pattern-1 {
-	background: url(background-color: #cc8800;
-background-image: url(http://www.transparenttextures.com/patterns/basketball.png);
-);
+	background: url("../img/escheresque_ste.png");
+	text-align: center;
 }
 
 .pattern-2 {
-	background: url("../img/swirl_pattern.png");
+	background: url("../img/hexellence.png");
+	text-align: center;
+}
+
+.pattern-3 {
+	background: url("../img/use_your_illusion.png");
+	text-align: center;
 }
 
 /* Show Grid */
